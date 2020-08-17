@@ -112,3 +112,8 @@ h6 {
 .col p {
   margin-bottom: 0;
 }
+
+.github-link {
+  text-align: center;
+  color: grey;
+}
