@@ -115,6 +115,6 @@ h6 {
 
 .github-link {
   display: block;
-  margin: 0 auto;
+  text-align: center;
   color: grey;
 }
