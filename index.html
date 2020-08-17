@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <form class="search" id="search-form">
+            <input
+              class="city"
+              id="city-search"
+              type="text"
+              placeholder="Your City..."
+              autocomplete="off"
+              autofocus="on"
+            />
+            <input class="find" type="submit" value="FIND" />
+          </form>
+          <button class="current" id="current-location">
+            CURRENT LOCATION
+          </button>
+          <div class="row">
+            <div class="col-4">
+              <img src="media/emojisonne.png" alt="Emoji Sonne" />
+            </div>
+            <div class="col-8">
+              <h5 class="card-title" id="card-city">Munich</h5>
+              <p class="date-time"></p>
+              <p class="card-text" id="temp">
+                18
+              </p>
+              <p class="card-text" id="cel-fahr">
+                <a href="#" id="celsius">°C</a> |
+                <a href="#" id="fahrenheit">°F</a>
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div class="row forecast">
+            <div class="col">
+              <h6>Mon<br />☀️</h6>
+              <p>20°<br />28°</p>
+            </div>
+            <div class="col">
+              <h6>Tue<br />☀️</h6>
+              <p>21°<br />29°</p>
+            </div>
+            <div class="col">
+              <h6>Wed<br />⛅</h6>
+              <p>16°<br />24°</p>
+            </div>
+            <div class="col">
+              <h6>Thu<br />⛅</h6>
+              <p>18°<br />23°</p>
+            </div>
+            <div class="col">
+              <h6>Fri<br />🌧️</h6>
+              <p>16°<br />22°</p>
+            </div>
+            <div class="col">
+              <h6>Sat<br />🌩️</h6>
+              <p>14°<br />18°</p>
+            </div>
+            <div class="col">
+              <h6>Sun<br />🌧️</h6>
+              <p>16°<br />23°</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="">GitHub</a>
+    <script src="src/index.js"></script>
+  </body>
+</html>
